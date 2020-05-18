@@ -13,7 +13,7 @@
 |Ensemble|0.5561|**0.5760**|
 
 - 除了Logistic Regression和|Neural Network以外，我選擇的分類器為LinearSVC，test accuracy最佳的模型為NN和LinearSVC，準確度皆為0.5480，但實際上三個模型在預測能力上沒有太大的差異。
-- 考慮到三個模型的train accuracy與test accuracy都沒有很大的差異，所以沒有overfitting的問題，並且三個模型的預測能力相當，有嘗試二階差分但沒有進步，我認為這些變數的預測能力大約就在0.54左右，所以要提升準確度可以需要額外的資訊，例如市場指標或是國際金融的資訊。
+- 考慮到三個模型的train accuracy與test accuracy都沒有很大的差異，所以沒有overfitting的問題，並且三個模型的預測能力相當，有嘗試二階差分但沒有進步，我認為這些變數的預測能力大約就在0.54左右，所以要提升準確度可能需要額外的資訊，例如市場指標或是國際金融的資訊。
 - 也因為變數沒有很複雜，所以很難看出三個模型在時序資料上的配適能力。所以如果資料集改變，我想並不是三個模型都有相當的預測能力。
 
 #### 3. How did you improve your classifiers ?
