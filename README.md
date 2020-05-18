@@ -1,6 +1,4 @@
-# FDA_HW3-1
-
-# Report
+# FDA_HW3-1 Report
 
 #### 1. How did you preprocess this dataset?
 因為資料中的變數都是時序資料，所以我對Open Price、Close Price、High Price、Low Price這四個變數，當日與前一天的數據做一階差分作為變數，並且將當日的Open Price與Close Price的差做為新的變數(move)，最後以Close Price當日與隔天數據的一階差分的正負項作為反應變數(y)。
