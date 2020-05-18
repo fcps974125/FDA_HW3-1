@@ -18,5 +18,3 @@
 
 #### 3. How did you improve your classifiers ?
 我將三個模型的預測結果做weighted sum，並且得到0.576的test accuracy，明顯優於三個模型分別預測的結果。
-
-- [github link](https://github.com/fcps974125/FDA_HW3-1)
