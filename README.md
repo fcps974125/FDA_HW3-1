@@ -1,7 +1,7 @@
 # FDA_HW3-1 Report
 
 #### 1. How did you preprocess this dataset?
-因為資料中的變數都是時序資料，所以我對Open Price、Close Price、High Price、Low Price這四個變數，當日與前一天的數據做一階差分作為變數，並且將當日的Open Price與Close Price的差做為新的變數(move)，最後以Close Price當日與隔天數據的一階差分的正負項作為反應變數(y)。
+因為資料中的變數都是時序資料，可以觀察到有上升的趨勢，如果以raw data來預測上漲下跌並不合理，所以我對Open Price、Close Price、High Price、Low Price這四個變數，當日與前一天的數據做一階差分作為變數，並且將當日的Open Price與Close Price的差做為新的變數(move)，最後以Close Price當日與隔天數據的一階差分的正負項作為反應變數(y)。
 
 #### 2. Which classifier reaches the highest classification accuracy in this dataset? Why ? Can this result remain if the dataset is different?
 
